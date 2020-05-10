@@ -3,8 +3,16 @@
 ## プロジェクトダウンロード & 構築
 
 ```bash
+$ git clone https://github.com/dai-570415/react-firebase-auth.git
 
+$ cd react-firebase-auth
+
+$ npm install
+
+$ npm start
 ```
+
+Firebase.jsを編集
 
 ```js:Firebase.js
 //Firebase.js
@@ -30,6 +38,8 @@ firebase.initializeApp(firebaseConfig);
 export const db = firebase.firestore();
 export default firebase;
 ```
+
+以上でFirebase Authenticationに連携できるかと思います。
 
 ## 編集した手順です。同じように手を動かしてしたい方は以下を参照してください。
 [参照した記事](https://qiita.com/zaburo/items/801bd288cec47bd28764)
